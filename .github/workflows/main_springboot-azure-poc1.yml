@@ -47,7 +47,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'springboot-azure-poc1'
+          app-name: 'spring-boot-poc1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_645D411D144945BC964C7235BD42582D }}
           package: '*.jar'
